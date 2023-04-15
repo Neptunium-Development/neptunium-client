@@ -1,4 +1,4 @@
-package me.corruptionhades.vapemenu.client;
+package me.nep.cl.client;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
