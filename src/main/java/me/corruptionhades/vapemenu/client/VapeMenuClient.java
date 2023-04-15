@@ -1,11 +1,11 @@
-package me.nep.cl.client;
+package me.corruptionhades.vapemenu.client;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 
 @Environment(EnvType.CLIENT)
-public class NepClient implements ClientModInitializer {
+public class VapeMenuClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {}

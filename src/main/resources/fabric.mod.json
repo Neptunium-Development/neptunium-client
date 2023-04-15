@@ -5,22 +5,21 @@
   "name": "VapeMenu",
   "description": "",
   "authors": [
-    "heedi",
-    "Panchito"
+    "CorruptionHades"
   ],
   "contact": {},
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "me.nep.cl.client.NepClient"
+      "me.corruptionhades.vapemenu.client.VapeMenuClient"
     ],
     "main": [
-      "me.nep.cl.Neptunium"
+      "me.corruptionhades.vapemenu.VapeMenu"
     ]
   },
   "mixins": [
-    "Nep.mixins.json"
+    "VapeMenu.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.14",
