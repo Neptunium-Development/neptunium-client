@@ -2,10 +2,12 @@
   "schemaVersion": 1,
   "id": "vape_menu",
   "version": "${version}",
-  "name": "VapeMenu",
+  "name": "Neptunium",
   "description": "",
   "authors": [
-    "CorruptionHades"
+    "heedi",
+    "Panchito",
+    "Luke"
   ],
   "contact": {},
   "license": "MIT",

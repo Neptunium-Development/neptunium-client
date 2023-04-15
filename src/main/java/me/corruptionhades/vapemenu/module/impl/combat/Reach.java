@@ -24,10 +24,10 @@ import java.util.function.Predicate;
 
 public class Reach extends Module {
 
-    private final NumberSetting maxDistance = new NumberSetting("Amount", 1, 100, 10, 1);
+    private final NumberSetting maxDistance = new NumberSetting("Amount", 1, 6, 3.3, 1);
 
     public Reach() {
-        super("Reach", "Up to 100 blocks of reach", Category.COMBAT);
+        super("Reach", "Allows you to hit entitys from 6 blocks away!", Category.COMBAT);
         addSettings(maxDistance);
     }
 
