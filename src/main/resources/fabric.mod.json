@@ -2,24 +2,25 @@
   "schemaVersion": 1,
   "id": "vape_menu",
   "version": "${version}",
-  "name": "VapeMenu",
+  "name": "Neptunium",
   "description": "",
   "authors": [
-    "CorruptionHades"
+    "heedi",
+    "Panchito"
   ],
   "contact": {},
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "me.corruptionhades.vapemenu.client.VapeMenuClient"
+      "me.nap.cl.client.NepClient"
     ],
     "main": [
-      "me.corruptionhades.vapemenu.VapeMenu"
+      "me.nep.client.Neptunium"
     ]
   },
   "mixins": [
-    "VapeMenu.mixins.json"
+    "Nep.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.14",
