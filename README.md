@@ -22,6 +22,7 @@
 - Hey 👋. I'm Saponciou but you can call me sap too. Im a 15 yo/ full stack developer who will code the hole website. I mostly work with rust, python and C++, but this time i will use my front-end skills.
 
 ## Discord
- <iframe src="https://discord.com/widget?id=1096859752023208028&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+<a href="https://discord.gg/YxfpAdsQEw">Join</a>
 
 Thanks for checking out Neptunium and happy *modding!*  :shushing_face:
