@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "vape_menu",
   "version": "${version}",
-  "name": "Neptunium",
+  "name": "VapeMenu",
   "description": "",
   "authors": [
     "heedi",
@@ -13,10 +13,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "me.nap.cl.client.NepClient"
+      "me.nep.cl.client.NepClient"
     ],
     "main": [
-      "me.nep.client.Neptunium"
+      "me.nep.cl.Neptunium"
     ]
   },
   "mixins": [
