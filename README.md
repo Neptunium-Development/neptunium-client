@@ -1,6 +1,6 @@
-## Neptunium Client
+# Neptunium Client
 
-# About
+## About
 
 - :loudspeaker: We are happily introducing **Neptunium**, our new Utility Mod for Minecraft Fabric!
 
@@ -15,7 +15,7 @@
 - For the base of this client we will be using VapeMenu.
 
 
-# Meet The Team
+## Meet The Team
 
 - Hello, I'm Heedi! I am 13 years old learning Java, HTML, CSS. I am a Ameteur coder. I have been playing Minecraft since 2014. Minecraft has been apart of my life since I was only 4! I personally think coding is very fun and I recommend learning it.
 - Hi, I'm Panchito, I'm 32 years old, I work programming in C++, but I'm interested in everything related to video game development, and I'm a minecraft fan haha
