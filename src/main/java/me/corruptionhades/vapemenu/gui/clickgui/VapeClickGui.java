@@ -83,7 +83,7 @@ public class VapeClickGui extends Screen {
     private Animation transition;
 
     protected VapeClickGui() {
-        super(Text.of("Vape Click gui"));
+        super(Text.of("ClickGui"));
     }
 
     @Override
