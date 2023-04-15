@@ -21,11 +21,11 @@ public class VapeMenu implements ModInitializer {
     private static final VapeMenu INSTANCE = new VapeMenu();
 
     // The Client name
-    private static final String name = "Client_Name";
+    private static final String name = "Neptunium";
     // Chat Prefix
     private static final String prefix = "&7[&4" + name + "&7] &a";
     // Command prefix
-    private static final String commandPrefix = "#";
+    private static final String commandPrefix = ".";
 
     // The Config that is currently used
     public static Config selectedConfig;
