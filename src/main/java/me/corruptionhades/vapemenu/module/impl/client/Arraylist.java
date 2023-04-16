@@ -1,4 +1,4 @@
-package me.corruptionhades.vapemenu.module.impl.render;
+package me.corruptionhades.vapemenu.module.impl.client;
 
 import me.corruptionhades.vapemenu.module.Category;
 import me.corruptionhades.vapemenu.module.HudModule;
@@ -11,7 +11,7 @@ import java.util.List;
 public class Arraylist extends HudModule {
 
     public Arraylist() {
-        super("Arraylist", "Shows a lsit of enabled Modules", Category.RENDER, 0, 0, 1, 1);
+        super("Arraylist", "Shows a lsit of enabled Modules", Category.CLIENT, 0, 0, 1, 1);
     }
 
     @Override
