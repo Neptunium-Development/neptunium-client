@@ -25,17 +25,14 @@ public class AutoCrystal extends Module {
 
     public AutoCrystal() {
         super("AutoCrystal", "Hvh Moment", Category.COMBAT);
+        addSettings(modeSetting, placeTicks, breakTicks);
+        tickTimer = 0;
     }
 
     public NumberSetting placeTicks = new NumberSetting("PlaceTicks", 0, 3, 0, 0.1);
     public NumberSetting breakTicks = new NumberSetting("BreakTicks", 0, 2, 0, 0.1);
     public ModeSetting modeSetting = new ModeSetting("Mode", "Tick", "Tick", "Update", "Motion", "Render");
     private double tickTimer;
-
-    public AutoCrystal() {
-        addSettings(modeSetting, placeTicks, breakTicks);
-        tickTimer = 0;
-    }
 
     public static boolean nullCheck() {
         return mc.player != null && mc.world != null;
