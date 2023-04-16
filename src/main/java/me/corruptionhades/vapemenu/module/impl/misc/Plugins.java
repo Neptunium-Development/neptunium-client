@@ -27,6 +27,11 @@ public class Plugins extends Module {
         }
     }
 
+    @Override
+    public void onTick() {
+
+    }
+
 
     @EventTarget
     public void onCmdSuggest(CommandSuggestEvent event) {

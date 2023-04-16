@@ -17,4 +17,9 @@ public class Sprint extends Module {
     public void onUpdate(EventUpdate e) {
         mc.player.setSprinting(true);
     }
+
+    @Override
+    public void onTick() {
+
+    }
 }

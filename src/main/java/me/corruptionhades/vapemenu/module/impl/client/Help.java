@@ -41,4 +41,9 @@ public class Help extends HudModule {
         renderer.drawWithShadow(matrices, "NeptuniumClient", getX()-renderer.getWidth("NeptuniumClient"), getY()-renderer.fontHeight*2-2, titleColor.getRGB());
         renderer.drawWithShadow(matrices, "To open ClickGUI, press RSHIFT", getX()-renderer.getWidth("To open ClickGUI, press RSHIFT"), getY()-renderer.fontHeight, -1);
     }
+
+    @Override
+    public void onTick() {
+
+    }
 }

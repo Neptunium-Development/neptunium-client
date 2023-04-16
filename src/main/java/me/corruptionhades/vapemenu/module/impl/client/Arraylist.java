@@ -42,4 +42,9 @@ public class Arraylist extends HudModule {
 
         setHeight(offset);
     }
+
+    @Override
+    public void onTick() {
+
+    }
 }

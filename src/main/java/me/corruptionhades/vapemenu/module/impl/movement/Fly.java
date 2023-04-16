@@ -44,4 +44,9 @@ public class Fly extends Module {
         }
         mc.player.getAbilities().setFlySpeed(0.1f);
     }
+
+    @Override
+    public void onTick() {
+
+    }
 }

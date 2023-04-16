@@ -12,4 +12,9 @@ public class Timer extends Module {
         super("Timer", "Change the speed of the game", Category.MOVEMENT);
         addSettings(timerSpeed);
     }
+
+    @Override
+    public void onTick() {
+
+    }
 }

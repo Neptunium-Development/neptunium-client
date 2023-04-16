@@ -35,6 +35,11 @@ public class CrystalBreak extends Module {
         super.onDisable();
     }
 
+    @Override
+    public void onTick() {
+
+    }
+
     @EventTarget
     public void onUpdate(EventUpdate event) {
 
