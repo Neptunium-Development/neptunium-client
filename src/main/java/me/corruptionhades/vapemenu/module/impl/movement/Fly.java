@@ -29,9 +29,6 @@ public class Fly extends Module {
     @Override
     public void onEnable() {
         super.onEnable();
-        if(warn.isEnabled()) {
-            sendMsg("&7Warning: You can still take fall damage!");
-        }
         if(mc.player == null) return;
         mc.player.getAbilities().allowFlying = true;
     }
