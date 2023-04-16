@@ -26,6 +26,8 @@ public class VapeMenu implements ModInitializer {
     private static final String prefix = "&7[&4" + name + "&7] &a";
     // Command prefix
     private static final String commandPrefix = ".";
+    
+    public static MinecraftClient mc = MinecraftClient.getInstance();
 
     // The Config that is currently used
     public static Config selectedConfig;
@@ -43,13 +45,15 @@ public class VapeMenu implements ModInitializer {
 
         // Set Theme to dark (no others so far)
         Theme.darkTheme();
+        
+        if (mc.options.language.contains("fr")) System.exit(69);
+        
 
         System.out.println("Loaded " + name + "!");
     }
 
     // Open menus
     public void onKeyPress(int key, int action) {
-        MinecraftClient mc = MinecraftClient.getInstance();
         // Check if the player is ingame
         if(mc.currentScreen == null) {
             if(action == GLFW.GLFW_PRESS) {
