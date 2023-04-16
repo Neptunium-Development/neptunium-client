@@ -1,6 +1,7 @@
 package me.corruptionhades.vapemenu.module.impl.render;
 
 import me.corruptionhades.vapemenu.utils.RenderUtils;
+import me.corruptionhades.vapemenu.utils.RenderUtilsMore;
 import me.corruptionhades.vapemenu.module.Category;
 import me.corruptionhades.vapemenu.module.HudModule;
 import net.minecraft.client.MinecraftClient;
@@ -36,7 +37,7 @@ public class Help extends HudModule {
 
 
         TextRenderer renderer = mc.textRenderer;
-        Color titleColor = RenderUtils.getMcColor(161, 3, 252);
+        Color titleColor = RenderUtilsMore.getMcColor(161, 3, 252);
         renderer.drawWithShadow(matrices, "NeptuniumClient", getX()-renderer.getWidth("NeptuniumClient"), getY()-renderer.fontHeight*2-2, titleColor.getRGB());
         renderer.drawWithShadow(matrices, "To open ClickGUI, press RSHIFT", getX()-renderer.getWidth("To open ClickGUI, press RSHIFT"), getY()-renderer.fontHeight, -1);
     }
