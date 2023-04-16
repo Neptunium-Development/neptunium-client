@@ -6,6 +6,7 @@ import me.corruptionhades.vapemenu.module.Category;
 import me.corruptionhades.vapemenu.module.Module;
 import me.corruptionhades.vapemenu.setting.NumberSetting;
 import me.corruptionhades.vapemenu.utils.time.TimerUtil;
+import me.corruptionhades.vapemenu.utils.time.TimerUtilHelper;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.decoration.EndCrystalEntity;
@@ -15,7 +16,7 @@ import net.minecraft.util.hit.HitResult;
 
 public class CrystalBreak extends Module {
 
-    private final TimerUtil timerUtil = new TimerUtil();
+    private final TimerUtilHelper timerUtilHelper = new TimerUtilHelper();
 
     private final NumberSetting cooldown = new NumberSetting("cooldown-ms", 0.0, 1000.0, 0.0, 0.01);
 
@@ -46,10 +47,10 @@ public class CrystalBreak extends Module {
         Entity target = ((EntityHitResult) hit).getEntity();
         if (!(target instanceof EndCrystalEntity))
             return;
-        if (timerUtil.hasReached((int) cooldown.getValue())) {
+        if (timerUtilHelper.hasReached((int) cooldown.getValue())) {
             mc.interactionManager.attackEntity(mc.player, target);
             mc.player.swingHand(Hand.MAIN_HAND);
-            timerUtil.reset();
+            timerUtilHelper.reset();
         }
 
     }
