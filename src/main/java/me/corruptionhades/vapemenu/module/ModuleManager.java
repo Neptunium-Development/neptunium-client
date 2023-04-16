@@ -7,6 +7,7 @@ import me.corruptionhades.vapemenu.module.impl.movement.Fly;
 import me.corruptionhades.vapemenu.module.impl.movement.Sprint;
 import me.corruptionhades.vapemenu.module.impl.movement.Timer;
 import me.corruptionhades.vapemenu.module.impl.render.Arraylist;
+import me.corruptionhades.vapemenu.module.impl.render.Help;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +31,7 @@ public class ModuleManager {
         add(new Timer());
         add(new CrystalBreak());
         add(new Sprint());
+        add(new Help());
     }
 
     public void add(Module m) {
