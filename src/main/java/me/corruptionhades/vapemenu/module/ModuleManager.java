@@ -1,5 +1,6 @@
 package me.corruptionhades.vapemenu.module;
 
+import me.corruptionhades.vapemenu.module.impl.closet.CrystalBreak;
 import me.corruptionhades.vapemenu.module.impl.combat.Reach;
 import me.corruptionhades.vapemenu.module.impl.misc.Plugins;
 import me.corruptionhades.vapemenu.module.impl.movement.Fly;
@@ -26,6 +27,7 @@ public class ModuleManager {
         add(new Fly());
         add(new Arraylist());
         add(new Timer());
+        add(new CrystalBreak());
     }
 
     public void add(Module m) {

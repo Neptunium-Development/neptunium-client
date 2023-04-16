@@ -27,7 +27,7 @@ public class Reach extends Module {
     private final NumberSetting maxDistance = new NumberSetting("Amount", 1, 6, 3.3, 1);
 
     public Reach() {
-        super("Reach", "Allows you to hit entitys from 6 blocks away!", Category.COMBAT);
+        super("Reach", "Hit from a distance.", Category.COMBAT);
         addSettings(maxDistance);
     }
 
