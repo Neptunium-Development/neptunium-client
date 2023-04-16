@@ -1,16 +1,17 @@
 package me.corruptionhades.vapemenu.module;
 
-import me.corruptionhades.vapemenu.module.impl.combat.CrystalBreak;
+import me.corruptionhades.vapemenu.module.impl.closet.CrystalBreak;
 import me.corruptionhades.vapemenu.module.impl.combat.Reach;
 import me.corruptionhades.vapemenu.module.impl.misc.Plugins;
 import me.corruptionhades.vapemenu.module.impl.movement.Fly;
 import me.corruptionhades.vapemenu.module.impl.movement.Sprint;
 import me.corruptionhades.vapemenu.module.impl.movement.Timer;
-import me.corruptionhades.vapemenu.module.impl.client.Arraylist;
-import me.corruptionhades.vapemenu.module.impl.client.Help;
+import me.corruptionhades.vapemenu.module.impl.render.Arraylist;
+import me.corruptionhades.vapemenu.module.impl.render.Help;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class ModuleManager {
 

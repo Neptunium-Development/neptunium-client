@@ -6,7 +6,7 @@ public enum Category {
     RENDER("Render"),
     PLAYER("Player"),
     MISC("Misc"),
-    CLIENT("Client");
+    CLOSET("Closet");
 
     public String name;
 

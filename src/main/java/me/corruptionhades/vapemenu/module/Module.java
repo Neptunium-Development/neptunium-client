@@ -42,11 +42,6 @@ public abstract class Module {
     }
 
     public void onEnable() {EventManager.register(this);}
-
-    @SuppressWarnings("unchecked")
-
-    public abstract void onTick();
-
     public void onDisable() {EventManager.unregister(this);}
 
     public void setEnabled(boolean toggled) {
