@@ -43,8 +43,5 @@ public class Velocity extends Module {
 
     public static Velocity get;
 
-    @Override
-    public void onTick() {
-
     }
 }
