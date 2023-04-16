@@ -31,15 +31,6 @@ public abstract class Module {
 
     public void toggle() {
        this.enabled = !this.enabled;
-
-       if(enabled) {
-           onEnable();
-           mc.player.sendMessage(Text.of(name + " was enabled!"));
-       }
-       else {
-           onDisable();
-           mc.player.sendMessage(Text.of(name + " was disabled!"));
-       }
     }
 
     public List<Setting> getSettings() {
