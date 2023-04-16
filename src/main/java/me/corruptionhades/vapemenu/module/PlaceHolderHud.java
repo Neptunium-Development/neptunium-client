@@ -13,4 +13,9 @@ public class PlaceHolderHud extends HudModule{
         setWidth(mc.textRenderer.getWidth(getDisplayName()));
         setHeight(mc.textRenderer.fontHeight);
     }
+
+    @Override
+    public void onTick() {
+
+    }
 }

@@ -14,4 +14,9 @@ public class PlaceHolderModule extends Module {
         super(name, "Description ", category);
         addSettings(booleanSetting, numberSetting, modeSetting);
     }
+
+    @Override
+    public void onTick() {
+
+    }
 }

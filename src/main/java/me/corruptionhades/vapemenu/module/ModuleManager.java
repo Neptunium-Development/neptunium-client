@@ -1,5 +1,6 @@
 package me.corruptionhades.vapemenu.module;
 
+import me.corruptionhades.vapemenu.module.impl.combat.AutoCrystal;
 import me.corruptionhades.vapemenu.module.impl.combat.Criticals;
 import me.corruptionhades.vapemenu.module.impl.combat.CrystalBreak;
 import me.corruptionhades.vapemenu.module.impl.combat.Reach;
@@ -35,6 +36,7 @@ public class ModuleManager {
         add(new Help());
         add(new Criticals());
         add(new FastFall());
+        add(new AutoCrystal());
     }
 
     public void add(Module m) {
