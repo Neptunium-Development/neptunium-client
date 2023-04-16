@@ -4,13 +4,13 @@
 
 - :loudspeaker: We are happily introducing **Neptunium**, our new Utility Mod for Minecraft Fabric!
 
-- :tools: Neptunium is currently under *very* heavy development and is a *powerful* Utility Mod that focuses mostly on *ghost and blatant modules*.  :eyes::raisedeyebrow:
+- Neptunium is currently under *very* heavy development and is a *powerful* Utility Mod that focuses mostly on *ghost and blatant modules*.  :eyes:
 
 - :star2: Best of everything, Neptunium is 100% open-source, so there's no need to worry about viruses or other security risks. :microbe: :no_entry_sign:
 
 - :computer: Want to learn more about **Neptunium** or download it for yourself? Check out our website at *coming soon* There, you'll find a button that will take you to the **source code** as well as a direct download button that links you to our GitHub!. :technologist:
 
-- :incoming_envelope:  If you would like to contact support or suggest something you can DM heedi#3560!
+- :incoming_envelope:  If you would like to contact support or suggest something, join our discord.
 
 - For the base of this client we will be using VapeMenu.
 
@@ -23,5 +23,8 @@
 - Hey I’m cwby726 I am active when I want to be i an alright at Java and I will be coding some of the  client I normal like to code gui tho
 - im wiz, im 15+ i can code HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java and lua. (i can also deadlift 190)
 
+## Discord
+
+<a href="https://discord.gg/YxfpAdsQEw">Join</a>
 
 Thanks for checking out Neptunium and happy *modding!*  :shushing_face:
