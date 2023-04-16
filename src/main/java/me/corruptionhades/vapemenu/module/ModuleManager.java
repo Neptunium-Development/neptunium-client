@@ -4,10 +4,7 @@ import me.corruptionhades.vapemenu.module.impl.combat.Criticals;
 import me.corruptionhades.vapemenu.module.impl.combat.CrystalBreak;
 import me.corruptionhades.vapemenu.module.impl.combat.Reach;
 import me.corruptionhades.vapemenu.module.impl.misc.Plugins;
-import me.corruptionhades.vapemenu.module.impl.movement.FastFall;
-import me.corruptionhades.vapemenu.module.impl.movement.Fly;
-import me.corruptionhades.vapemenu.module.impl.movement.Sprint;
-import me.corruptionhades.vapemenu.module.impl.movement.Timer;
+import me.corruptionhades.vapemenu.module.impl.movement.*;
 import me.corruptionhades.vapemenu.module.impl.client.Arraylist;
 import me.corruptionhades.vapemenu.module.impl.client.Help;
 
@@ -35,6 +32,7 @@ public class ModuleManager {
         add(new Help());
         add(new Criticals());
         add(new FastFall());
+        add(new Velocity());
     }
 
     public void add(Module m) {
