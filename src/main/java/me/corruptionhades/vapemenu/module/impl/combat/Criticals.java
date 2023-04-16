@@ -25,6 +25,11 @@ public class Criticals extends Module {
         timer = new TimerUtil();
     }
 
+    @Override
+    public void onTick() {
+
+    }
+
     @EventTarget
     public void onPacket(PacketSendEvent e) {
         Packet<?> packet = e.getPacket();

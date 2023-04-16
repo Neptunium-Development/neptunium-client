@@ -24,7 +24,7 @@ import me.corruptionhades.vapemenu.module.Module;
 public class AutoCrystal extends Module {
 
     public AutoCrystal() {
-        super("AutoCrystal", )
+        super("AutoCrystal", "Hvh Moment", Category.COMBAT);
     }
 
     public NumberSetting placeTicks = new NumberSetting("PlaceTicks", 0, 3, 0, 0.1);

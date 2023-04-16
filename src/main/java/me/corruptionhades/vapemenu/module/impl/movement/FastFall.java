@@ -1,6 +1,5 @@
 package me.corruptionhades.vapemenu.module.impl.movement;
 
-import me.corruptionhades.vapemenu.event.EventTarget;
 import me.corruptionhades.vapemenu.setting.ModeSetting;
 import me.corruptionhades.vapemenu.module.Category;
 import me.corruptionhades.vapemenu.module.Module;
