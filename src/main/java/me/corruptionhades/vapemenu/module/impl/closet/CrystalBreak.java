@@ -1,4 +1,4 @@
-package me.corruptionhades.vapemenu.utils.time;
+package me.corruptionhades.vapemenu.module.impl.closet;
 
 import me.corruptionhades.vapemenu.event.EventTarget;
 import me.corruptionhades.vapemenu.event.impl.EventUpdate;
