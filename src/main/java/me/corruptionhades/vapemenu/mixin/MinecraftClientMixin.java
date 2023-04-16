@@ -18,6 +18,10 @@ public class MinecraftClientMixin {
     
     @Inject(at = @At("HEAD"), method = "tick")
     public void onTick(CallbackInfo ci) {
-        Module.onTick()
+       if (mc.player != null) {
+            for (Module module : ModuleManager.INSTANCE.getEnabledModules()) {
+                module.onTick();
+            }
+        }
     }
 }
