@@ -25,6 +25,6 @@
 
 ## Discord
 
-<a href="https://discord.gg/YxfpAdsQEw">Join</a>
+<a href="https://discord.gg/YxfpAdsQEw">Join Discord</a>
 
 Thanks for checking out Neptunium and happy *modding!*  :shushing_face:
