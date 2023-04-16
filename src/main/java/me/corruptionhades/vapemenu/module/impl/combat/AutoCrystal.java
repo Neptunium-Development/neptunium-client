@@ -1,5 +1,6 @@
 package me.corruptionhades.vapemenu.module.impl.combat;
 
+import me.corruptionhades.vapemenu.event.impl.ECExplodeEvent;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.decoration.EndCrystalEntity;
@@ -12,20 +13,23 @@ import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.RaycastContext;
 import me.corruptionhades.vapemenu.event.EventTarget;
-import me.corruptionhades.vapemenu.event.impl.ECExplodeEvent;
 import me.corruptionhades.vapemenu.event.impl.EventMotion;
 import me.corruptionhades.vapemenu.event.impl.EventUpdate;
 import me.corruptionhades.vapemenu.setting.ModeSetting;
 import me.corruptionhades.vapemenu.setting.NumberSetting;
-import org.mapleir.dot4j.helper.utils.CrystalUtils;
+import me.corruptionhades.vapemenu.utils.CrystalUtils;
 import me.corruptionhades.vapemenu.module.Category;
 import me.corruptionhades.vapemenu.module.Module;
 
-@Module.Info(name = "AutoCrystal", description = "haxer tester", category = Category.COMBAT)
 public class AutoCrystal extends Module {
+
+    public AutoCrystal() {
+        super("AutoCrystal", )
+    }
+
     public NumberSetting placeTicks = new NumberSetting("PlaceTicks", 0, 3, 0, 0.1);
     public NumberSetting breakTicks = new NumberSetting("BreakTicks", 0, 2, 0, 0.1);
-    ModeSetting modeSetting = new ModeSetting("Mode", "Tick", "Tick", "Update", "Motion", "Render");
+    public ModeSetting modeSetting = new ModeSetting("Mode", "Tick", "Tick", "Update", "Motion", "Render");
     private double tickTimer;
 
     public AutoCrystal() {
@@ -105,7 +109,7 @@ public class AutoCrystal extends Module {
     }
 
     @EventTarget
-    public void onExplosion(EndCrystalExplosionMcPlayerEvent e) {
+    public void onExplosion(ECExplodeEvent e) {
         placeCrystal();
     }
 

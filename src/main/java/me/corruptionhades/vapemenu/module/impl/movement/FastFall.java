@@ -13,7 +13,7 @@ public class FastFall extends Module {
         addSettings(modeSetting);
     }
 
-
+    @Override
     public void onTick() {
         if (mc.player.fallDistance > 0.4 && modeSetting.isMode("Vanilla")) {
             mc.player.setVelocity(mc.player.getVelocity().x, -1.6, mc.player.getVelocity().z);

@@ -123,4 +123,6 @@ public abstract class Module {
         if(mc.player == null) return;
         mc.player.sendMessage(Text.of(message.replace("&", "§")));
     }
+
+    public abstract void onTick();
 }
