@@ -3,6 +3,7 @@ package me.corruptionhades.vapemenu.module;
 import me.corruptionhades.vapemenu.event.EventManager;
 import me.corruptionhades.vapemenu.setting.Setting;
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.Text;
 
 import java.util.ArrayList;
@@ -97,6 +98,9 @@ public abstract class Module {
 
     public void setCategory(Category category) {
         this.category = category;
+    }
+
+    public void onWorldRender(MatrixStack matrices) {
     }
 
     public String getDisplayName() {
