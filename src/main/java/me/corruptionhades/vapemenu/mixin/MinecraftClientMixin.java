@@ -1,5 +1,6 @@
 package me.corruptionhades.vapemenu.mixin;
 
+import me.corruptionhades.vapemenu.module.Module;
 import me.corruptionhades.vapemenu.event.impl.EventUpdate;
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;
@@ -13,5 +14,10 @@ public class MinecraftClientMixin {
     @Inject(method = "tick", at = @At("HEAD"))
     public void onUpdate(CallbackInfo ci) {
         new EventUpdate().call();
+    }
+    
+    @Inject(at = @At("HEAD"), method = "tick")
+    public void onTick(CallbackInfo ci) {
+        Module.onTick()
     }
 }
