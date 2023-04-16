@@ -1,4 +1,4 @@
-package me.corruptionhades.vapemenu.module.impl.closet;
+package me.corruptionhades.vapemenu.module.impl.combat;
 
 import me.corruptionhades.vapemenu.event.EventTarget;
 import me.corruptionhades.vapemenu.event.impl.EventUpdate;
@@ -21,7 +21,7 @@ public class CrystalBreak extends Module {
     private final NumberSetting cooldown = new NumberSetting("cooldown-ms", 0.0, 1000.0, 0.0, 0.01);
 
     public CrystalBreak() {
-        super("CrystalBreaker", "Pop Endcrystals", Category.CLOSET);
+        super("CrystalBreaker", "Pop Endcrystals", Category.COMBAT);
         addSettings(cooldown);
     }
 

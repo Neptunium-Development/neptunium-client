@@ -1,4 +1,4 @@
-package me.corruptionhades.vapemenu.module.impl.render;
+package me.corruptionhades.vapemenu.module.impl.client;
 
 import me.corruptionhades.vapemenu.utils.RenderUtils;
 import me.corruptionhades.vapemenu.utils.RenderUtilsMore;
@@ -16,7 +16,7 @@ public class Help extends HudModule {
         super(
                 "Watermark",
                 "Client watermark",
-                Category.RENDER,
+                Category.CLIENT,
                 MinecraftClient.getInstance().getWindow().getScaledWidth()-30,
                 MinecraftClient.getInstance().textRenderer.fontHeight*2+4,
                 7,
@@ -39,6 +39,5 @@ public class Help extends HudModule {
         TextRenderer renderer = mc.textRenderer;
         Color titleColor = RenderUtilsMore.getMcColor(161, 3, 252);
         renderer.drawWithShadow(matrices, "NeptuniumClient", getX()-renderer.getWidth("NeptuniumClient"), getY()-renderer.fontHeight*2-2, titleColor.getRGB());
-        renderer.drawWithShadow(matrices, "To open ClickGUI, press RSHIFT", getX()-renderer.getWidth("To open ClickGUI, press RSHIFT"), getY()-renderer.fontHeight, -1);
     }
 }
