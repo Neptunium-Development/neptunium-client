@@ -20,7 +20,7 @@ public class CrystalBreak extends Module {
     private final NumberSetting cooldown = new NumberSetting("cooldown-ms", 0.0, 1000.0, 0.0, 0.01);
 
     public CrystalBreak() {
-        super("CrystalPop", "Automatically pops end crystal when placed", Category.GHOST);
+        super("CrystalPop", "Automatically pops end crystal when placed", Category.CLOSET);
         addSettings(cooldown);
     }
 
