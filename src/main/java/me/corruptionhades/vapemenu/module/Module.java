@@ -19,7 +19,7 @@ public abstract class Module {
 
     private boolean expanded;
 
-    protected MinecraftClient mc = MinecraftClient.getInstance();
+    protected static MinecraftClient mc = MinecraftClient.getInstance();
 
     private final List<Setting> settings = new ArrayList<>();
 
